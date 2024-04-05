@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual workflow
+name: Manual workflow Test
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -29,5 +29,5 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: test.txt
-          target: /home/deploy/sampleapp
+          target: /home/deploy/sampleapp/test.txt
 
