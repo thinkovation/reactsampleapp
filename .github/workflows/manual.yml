@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: List Files
-        run: ls build/
+        run: ls /home/runner/work/reactsampleapp/reactsampleapp/build/
       - name: Check Dir
         run: pwd
   deploy:
