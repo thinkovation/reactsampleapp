@@ -39,6 +39,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: build/
+          source: /home/runner/work/reactsampleapp/reactsampleapp/build/
           target: /home/deploy/sampleapp
 
