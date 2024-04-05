@@ -26,6 +26,8 @@ jobs:
         run: npm run build
       - name: List Files
         run: ls build/
+      - name: Check Dir
+        run: pwd
   deploy:
     needs: build
     runs-on: ubuntu-latest
